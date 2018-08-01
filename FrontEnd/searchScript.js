@@ -14,7 +14,7 @@ function Search() {
   console.log(summaryTerms);
   
   //var search = 'http://localhost/class/movieAPI/search_results.php' + '?query=' + searchTerms;
-  var search = 'http://10.10.16.191/back-end/search_results.php' + '?query=' + searchTerms;
+  var search = 'http://localhost/BackEnd/search_results.php' + '?query=' + searchTerms;
   if (budgetMax != "") {
 
     search += '&budget=' + budgetMax;
